@@ -11,6 +11,6 @@ on:
 jobs:
 
   upload-aem-package:    
-    uses: Faazil/aem-common-build/.github/workflows/main.yaml@main  
+    uses: Faazil/aem-common-build/.github/workflows/main.yml@main  
     with:  
       AEM_ENV: ${{ github.event.inputs.environment }}
