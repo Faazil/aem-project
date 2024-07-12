@@ -1,0 +1,12 @@
+environments:
+  - type: 1
+    awsAccounts:
+     - ess-eng
+     - ess-test
+     - ess-Prod-preview
+     - ess-Prod-live
+     - fis-Prod-preview
+     - fis-Prod-live
+
+
+  
