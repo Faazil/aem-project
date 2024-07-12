@@ -1,1 +1,16 @@
-nn
+name: CICD Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Select environment'
+        required: true
+        default: '1loc'
+
+jobs:
+
+  upload-aem-package:    
+    uses: Faazil/aem-common-build/.github/workflows/main.yaml@main  
+    with:  
+      AEM_ENV: ${{ github.event.inputs.environment }}
