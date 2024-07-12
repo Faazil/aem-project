@@ -6,7 +6,7 @@ on:
       environment:
         description: 'Select environment'
         required: true
-        default: '1loc'
+        default: 'ess-eng'
 
 jobs:
 
