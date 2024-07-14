@@ -1,7 +1,7 @@
 dns_file:
   ess-eng: http://localhost:4504
   ess-test: http://localhost:4506
-  ess-Prod : http://localhost:6666
+  ess-Prod : http://localhost:4502
   ess-Prod-preview: http://localhost:7777
   ttt-prod: http://localhost:5555
   fis-prod: http://localhost:8080
